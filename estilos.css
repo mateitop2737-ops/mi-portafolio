@@ -1,0 +1,80 @@
+/* PALETA DE COLORES */
+:root {
+    --color-principal: #1e3a8a;
+    --color-secundario: #3b82f6;
+    --color-fondo: #f1f5f9;
+    --color-texto: #111827;
+    --color-blanco: #ffffff;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+}
+
+#header {
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+    text-align: center;
+    padding: 30px;
+}
+
+.titulo {
+    margin: 0;
+    font-size: 32px;
+}
+
+.subtitulo {
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+.perfil {
+    text-align: center;
+    padding: 40px;
+}
+
+.imagen-perfil {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.descripcion {
+    font-size: 18px;
+}
+
+.proyectos {
+    background-color: var(--color-secundario);
+    padding: 30px;
+    text-align: center;
+    color: var(--color-blanco);
+}
+
+.proyectos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.proyectos li {
+    margin: 10px 0;
+}
+
+.proyectos a {
+    color: var(--color-blanco);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.proyectos a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+}
